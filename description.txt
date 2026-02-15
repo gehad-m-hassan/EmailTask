@@ -1,0 +1,45 @@
+elnhrda inshallahh 3ayzakyy te3mlo repo 3ala github
+ 
+w t-download github Desktop
+ 
+3shan n-push/pull w kolo men 3aleh
+ 
+& 3ayzakyy te3mlyy service teb3att emaill
+ 
+ 
+ya3ny elservice hatakhod as input haga keda maslan
+ 
+{"From":"yourEMAIL",
+"To":"aliaakaram54@gmail.com",
+"Subject": "Checkpoint Updates",
+"EmailContent":"Hii, Aliaa how are you?"}
+ 
+ 
+ 
+ 
+w 3ayzakyy teftahyy git workspace 3ala app connect
+ 
+
+& t-create branch law Maslan enty shaghala 3ala master branch -> fy eltare2a eli benakhod beha branch neshtaghal 3aleh
+ 
+ 
+hwa esm elmainBranch-featureBranch
+ 
+ya3ny law el main branch esmo master
+ 
+f bakhod branch men elmaster
+ 
+w basamih
+ 
+master-ServiceName
+ 
+
+w lama benegy n-commit benktb esm elbranch eli shaghalen 3aleh elawal 
+ 
+master-ServiceName:commitDescription
+ 
+master-ServiceName:fixingBackendRequest
+ 
+kedaa da byb2a shakl el commit 
+ 
+
