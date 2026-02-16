@@ -7,7 +7,7 @@ CREATE COMPUTE MODULE EmailMsgFlw_Compute1
         SET OutputRoot.HTTPReplyHeader = InputRoot.HTTPReplyHeader;
 
         SET OutputRoot.HTTPReplyHeader."Content-Type" = 'application/json';
-      
+          
         CREATE FIELD OutputRoot.JSON.Data;
         DECLARE refOutput REFERENCE TO OutputRoot.JSON.Data;
        
