@@ -1,0 +1,21 @@
+
+
+CREATE COMPUTE MODULE EmailMsgFlw_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		
+		SET OutputRoot.EmailOutputHeader.To =InputRoot.JSON.Data.To;  
+
+
+		SET OutputRoot.EmailOutputHeader.From = InputRoot.JSON.Data.From;
+		SET OutputRoot.EmailOutputHeader."Reply-To" = InputRoot.JSON.Data.From;
+
+		SET OutputRoot.EmailOutputHeader.Subject = InputRoot.JSON.Data.Subject;
+
+		SET OutputRoot.BLOB.BLOB = CAST(InputRoot.JSON.Data.EmailContent AS BLOB CCSID 1208);  		
+
+		RETURN TRUE;
+	END;
+
+END MODULE;
+

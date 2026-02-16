@@ -1,0 +1,10 @@
+/.metadata/
+TEST_SERVER/
+**/config/
+**/.lock
+*.lck
+
+.metadata/
+RemoteSystemsTempFiles/
+Servers/
+
